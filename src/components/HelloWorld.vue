@@ -101,7 +101,7 @@ export default {
     fetchApiData () {
       this.responseAvailable = false
 
-      fetch('http://127.0.0.1:8080/api/temp_history', {
+      fetch('http://www.space-pi-api.com/api/temp_history', {
         'method': 'GET'
       })
         .then(response => {
